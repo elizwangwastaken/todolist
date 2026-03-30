@@ -14,18 +14,31 @@ if you want to build this yourself or customize the garden, here is the logic i 
 
 =IMAGE(
     INDEX(
+    
         {
+        
         "Image 1 Link",
+        
         "Image 2 Link",
+        
         "Image 3 Link",
+        
         "Image 4 Link",
+        
         "Image 5 Link",
+        
         "Image 6 Link",
+        
         "Image 7 Link",
+
         "Image 8 Link"
+        
         },
+        
         MIN(8, COUNTIF($A$1:$A$8, TRUE) + 1)
+        
     )
+    
 )
 
 you can also upload your images to Google Drive (or any image hosting site).
