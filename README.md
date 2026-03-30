@@ -10,7 +10,7 @@ it's just a single formula that counts your checkboxes and pulls an image from a
 
 the formula
 
-If you want to build this yourself or customize the garden, here is the logic i used:
+if you want to build this yourself or customize the garden, here is the logic i used:
 
 =IMAGE(
     INDEX(
@@ -37,3 +37,5 @@ replace "Image 1 Link", "Image 2 Link", etc., in the formula above with your dir
 update the range $A$1:$A$8 to match wherever your checkboxes live
 
 when you save your Excel file for the repo, make sure you save it as an .xlsx (Excel Workbook) rather than an old .xls, as the =IMAGE() function is a newer feature that works best in modern Excel versions and Excel for the Web!
+
+[watch the growing flower demo](growingflowerdemo.mov)
