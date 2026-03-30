@@ -12,9 +12,10 @@ the formula
 
 if you want to build this yourself or customize the garden, here is the logic i used:
 
+```excel
 =IMAGE(
     INDEX(
-    
+
         {
         
         "Image 1 Link",
@@ -38,8 +39,9 @@ if you want to build this yourself or customize the garden, here is the logic i 
         MIN(8, COUNTIF($A$1:$A$8, TRUE) + 1)
         
     )
-    
+
 )
+```
 
 you can also upload your images to Google Drive (or any image hosting site).
 
