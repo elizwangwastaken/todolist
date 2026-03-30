@@ -53,4 +53,8 @@ update the range $A$1:$A$8 to match wherever your checkboxes live
 
 when you save your Excel file for the repo, make sure you save it as an .xlsx (Excel Workbook) rather than an old .xls, as the =IMAGE() function is a newer feature that works best in modern Excel versions and Excel for the Web!
 
-[watch the growing flower demo](growingflowerdemo.mov)
+watch the growing flower demo
+
+https://github.com/user-attachments/assets/ca35e7ca-7590-4cea-b011-d8925a72430b
+
+
